@@ -10,26 +10,67 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="resources" Type="Folder">
+			<Item Name="canberra_all.csv" Type="Document" URL="../resources/canberra_all.csv"/>
+			<Item Name="canberra_all_mds.csv" Type="Document" URL="../resources/canberra_all_mds.csv"/>
+			<Item Name="euclidean_all_nonnan.csv" Type="Document" URL="../resources/euclidean_all_nonnan.csv"/>
+			<Item Name="euclidean_all_nonnan_mds.csv" Type="Document" URL="../resources/euclidean_all_nonnan_mds.csv"/>
+			<Item Name="euclidean_continuous_nonnan.csv" Type="Document" URL="../resources/euclidean_continuous_nonnan.csv"/>
+			<Item Name="euclidean_continuous_nonnan_mds.csv" Type="Document" URL="../resources/euclidean_continuous_nonnan_mds.csv"/>
+			<Item Name="jaccard_all.csv" Type="Document" URL="../resources/jaccard_all.csv"/>
+			<Item Name="jaccard_all_mds.csv" Type="Document" URL="../resources/jaccard_all_mds.csv"/>
+			<Item Name="jaccard_categorical.csv" Type="Document" URL="../resources/jaccard_categorical.csv"/>
+			<Item Name="jaccard_categorical_mds.csv" Type="Document" URL="../resources/jaccard_categorical_mds.csv"/>
+			<Item Name="Odour chemicals.csv" Type="Document" URL="../resources/Odour chemicals.csv"/>
+			<Item Name="odour_descriptors.csv" Type="Document" URL="../resources/odour_descriptors.csv"/>
+			<Item Name="pearson_mds.csv" Type="Document" URL="../resources/pearson_mds.csv"/>
+		</Item>
+		<Item Name="Aimed_similarities.vi" Type="VI" URL="../Aimed_similarities.vi"/>
 		<Item Name="Bottle_control.ctl" Type="VI" URL="../Bottle_control.ctl"/>
+		<Item Name="Bottle_names_to_bottles.vi" Type="VI" URL="../Bottle_names_to_bottles.vi"/>
+		<Item Name="Bottles_to_bottle_names.vi" Type="VI" URL="../Bottles_to_bottle_names.vi"/>
+		<Item Name="Calculate_bottle_2Dmap_multicolor.vi" Type="VI" URL="../Calculate_bottle_2Dmap_multicolor.vi"/>
 		<Item Name="Calculate_bottle_distance_matrix.vi" Type="VI" URL="../Calculate_bottle_distance_matrix.vi"/>
-		<Item Name="Calculate_bottle_distance_matrix_multicolor.vi" Type="VI" URL="../Calculate_bottle_distance_matrix_multicolor.vi"/>
+		<Item Name="Calculate_stimulus_similarity_matrix.vi" Type="VI" URL="../Calculate_stimulus_similarity_matrix.vi"/>
+		<Item Name="Compare_odour_bottles.vi" Type="VI" URL="../Compare_odour_bottles.vi"/>
+		<Item Name="Compare_odour_components.vi" Type="VI" URL="../Compare_odour_components.vi"/>
+		<Item Name="Default_odour_bottles.vi" Type="VI" URL="../Default_odour_bottles.vi"/>
 		<Item Name="Empty_bottle.vi" Type="VI" URL="../Empty_bottle.vi"/>
+		<Item Name="Get_odour_data.vi" Type="VI" URL="../Get_odour_data.vi"/>
+		<Item Name="Handle_counter_bottle_drop.vi" Type="VI" URL="../Handle_counter_bottle_drop.vi"/>
 		<Item Name="Identify_bottle_types.vi" Type="VI" URL="../Identify_bottle_types.vi"/>
 		<Item Name="Init_odour_bottles.vi" Type="VI" URL="../Init_odour_bottles.vi"/>
+		<Item Name="Init_sequences.vi" Type="VI" URL="../Init_sequences.vi"/>
+		<Item Name="Initi_stimuli.vi" Type="VI" URL="../Initi_stimuli.vi"/>
 		<Item Name="Label_bottles.vi" Type="VI" URL="../Label_bottles.vi"/>
 		<Item Name="Lick_sensor_calibration.vi" Type="VI" URL="../Lick_sensor_calibration.vi"/>
+		<Item Name="Load_protocol.vi" Type="VI" URL="../Load_protocol.vi"/>
+		<Item Name="Make_component_similarity_map.vi" Type="VI" URL="../Make_component_similarity_map.vi"/>
+		<Item Name="Make_odour_chemical_list_strings.vi" Type="VI" URL="../Make_odour_chemical_list_strings.vi"/>
+		<Item Name="Mixture_similarity_map_data.vi" Type="VI" URL="../Mixture_similarity_map_data.vi"/>
 		<Item Name="New_stimulus.vi" Type="VI" URL="../New_stimulus.vi"/>
 		<Item Name="OdorSeq_Main.vi" Type="VI" URL="../OdorSeq_Main.vi"/>
-		<Item Name="Odour chemicals.csv" Type="Document" URL="/C/Users/kollom/Downloads/Odour chemicals.csv"/>
+		<Item Name="Odour component similarity map.vi" Type="VI" URL="../Odour component similarity map.vi"/>
 		<Item Name="Odour_chemicals.vi" Type="VI" URL="../Odour_chemicals.vi"/>
+		<Item Name="Odour_component_data_GLOBAL.vi" Type="VI" URL="../Odour_component_data_GLOBAL.vi"/>
 		<Item Name="Odour_drag.vi" Type="VI" URL="../Odour_drag.vi"/>
+		<Item Name="Odour_map_selection.vi" Type="VI" URL="../Odour_map_selection.vi"/>
+		<Item Name="Odour_map_selection_.vi" Type="VI" URL="../Odour_map_selection_.vi"/>
+		<Item Name="Odour_protocol.vi" Type="VI" URL="../Odour_protocol.vi"/>
+		<Item Name="Odour_sequences.vi" Type="VI" URL="../Odour_sequences.vi"/>
+		<Item Name="Odour_stimuli.vi" Type="VI" URL="../Odour_stimuli.vi"/>
+		<Item Name="Remove_stimulus.vi" Type="VI" URL="../Remove_stimulus.vi"/>
 		<Item Name="Rename_drag.vi" Type="VI" URL="../Rename_drag.vi"/>
-		<Item Name="Save_odour_bottles.vi" Type="VI" URL="../Save_odour_bottles.vi"/>
+		<Item Name="Save_protocol.vi" Type="VI" URL="../Save_protocol.vi"/>
+		<Item Name="Save_sequences.vi" Type="VI" URL="../Save_sequences.vi"/>
+		<Item Name="Save_stimuli.vi" Type="VI" URL="../Save_stimuli.vi"/>
+		<Item Name="Similarities_to_colour_grid.vi" Type="VI" URL="../Similarities_to_colour_grid.vi"/>
 		<Item Name="Update_bottle_selection.vi" Type="VI" URL="../Update_bottle_selection.vi"/>
 		<Item Name="Update_odour_components.vi" Type="VI" URL="../Update_odour_components.vi"/>
 		<Item Name="VP_String.vi" Type="VI" URL="../VP_String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -172,6 +213,7 @@
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
@@ -184,6 +226,8 @@
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
@@ -205,6 +249,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Save_odour_bottles.vi" Type="VI" URL="../Save_odour_bottles.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
