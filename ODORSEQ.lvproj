@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
+	<Property Name="varPersistentID:{64B67AFF-A378-45C6-A8E2-6388DB63C646}" Type="Ref">/My Computer/stimulus_srcoll_event.lvlib/user event</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -65,6 +66,7 @@
 		<Item Name="Save_sequences.vi" Type="VI" URL="../Save_sequences.vi"/>
 		<Item Name="Save_stimuli.vi" Type="VI" URL="../Save_stimuli.vi"/>
 		<Item Name="Similarities_to_colour_grid.vi" Type="VI" URL="../Similarities_to_colour_grid.vi"/>
+		<Item Name="stimulus_srcoll_event.lvlib" Type="Library" URL="../stimulus_srcoll_event.lvlib"/>
 		<Item Name="Update_bottle_selection.vi" Type="VI" URL="../Update_bottle_selection.vi"/>
 		<Item Name="Update_odour_components.vi" Type="VI" URL="../Update_odour_components.vi"/>
 		<Item Name="VP_String.vi" Type="VI" URL="../VP_String.vi"/>
