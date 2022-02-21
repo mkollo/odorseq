@@ -38,6 +38,11 @@
 		<Item Name="Default_odour_bottles.vi" Type="VI" URL="../Default_odour_bottles.vi"/>
 		<Item Name="Empty_bottle.vi" Type="VI" URL="../Empty_bottle.vi"/>
 		<Item Name="Get_odour_data.vi" Type="VI" URL="../Get_odour_data.vi"/>
+		<Item Name="GLOBAL_experiment_parameters.vi" Type="VI" URL="../GLOBAL_experiment_parameters.vi"/>
+		<Item Name="GLOBAL_odour_component_data.vi" Type="VI" URL="../GLOBAL_odour_component_data.vi"/>
+		<Item Name="GLOBAL_odour_protocol.vi" Type="VI" URL="../GLOBAL_odour_protocol.vi"/>
+		<Item Name="GLOBAL_odour_sequences.vi" Type="VI" URL="../GLOBAL_odour_sequences.vi"/>
+		<Item Name="GLOBAL_odour_stimuli.vi" Type="VI" URL="../GLOBAL_odour_stimuli.vi"/>
 		<Item Name="Handle_counter_bottle_drop.vi" Type="VI" URL="../Handle_counter_bottle_drop.vi"/>
 		<Item Name="Identify_bottle_types.vi" Type="VI" URL="../Identify_bottle_types.vi"/>
 		<Item Name="Init_odour_bottles.vi" Type="VI" URL="../Init_odour_bottles.vi"/>
@@ -45,6 +50,7 @@
 		<Item Name="Initi_stimuli.vi" Type="VI" URL="../Initi_stimuli.vi"/>
 		<Item Name="Label_bottles.vi" Type="VI" URL="../Label_bottles.vi"/>
 		<Item Name="Lick_sensor_calibration.vi" Type="VI" URL="../Lick_sensor_calibration.vi"/>
+		<Item Name="Load_experiment.vi" Type="VI" URL="../Load_experiment.vi"/>
 		<Item Name="Load_protocol.vi" Type="VI" URL="../Load_protocol.vi"/>
 		<Item Name="Make_component_similarity_map.vi" Type="VI" URL="../Make_component_similarity_map.vi"/>
 		<Item Name="Make_odour_chemical_list_strings.vi" Type="VI" URL="../Make_odour_chemical_list_strings.vi"/>
@@ -53,15 +59,12 @@
 		<Item Name="OdorSeq_Main.vi" Type="VI" URL="../OdorSeq_Main.vi"/>
 		<Item Name="Odour component similarity map.vi" Type="VI" URL="../Odour component similarity map.vi"/>
 		<Item Name="Odour_chemicals.vi" Type="VI" URL="../Odour_chemicals.vi"/>
-		<Item Name="Odour_component_data_GLOBAL.vi" Type="VI" URL="../Odour_component_data_GLOBAL.vi"/>
 		<Item Name="Odour_drag.vi" Type="VI" URL="../Odour_drag.vi"/>
 		<Item Name="Odour_map_selection.vi" Type="VI" URL="../Odour_map_selection.vi"/>
 		<Item Name="Odour_map_selection_.vi" Type="VI" URL="../Odour_map_selection_.vi"/>
-		<Item Name="Odour_protocol.vi" Type="VI" URL="../Odour_protocol.vi"/>
-		<Item Name="Odour_sequences.vi" Type="VI" URL="../Odour_sequences.vi"/>
-		<Item Name="Odour_stimuli.vi" Type="VI" URL="../Odour_stimuli.vi"/>
 		<Item Name="Remove_stimulus.vi" Type="VI" URL="../Remove_stimulus.vi"/>
 		<Item Name="Rename_drag.vi" Type="VI" URL="../Rename_drag.vi"/>
+		<Item Name="Save_experiment.vi" Type="VI" URL="../Save_experiment.vi"/>
 		<Item Name="Save_protocol.vi" Type="VI" URL="../Save_protocol.vi"/>
 		<Item Name="Save_sequences.vi" Type="VI" URL="../Save_sequences.vi"/>
 		<Item Name="Save_stimuli.vi" Type="VI" URL="../Save_stimuli.vi"/>
