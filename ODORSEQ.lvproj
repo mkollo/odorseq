@@ -36,13 +36,16 @@
 		<Item Name="Compare_odour_bottles.vi" Type="VI" URL="../Compare_odour_bottles.vi"/>
 		<Item Name="Compare_odour_components.vi" Type="VI" URL="../Compare_odour_components.vi"/>
 		<Item Name="Default_odour_bottles.vi" Type="VI" URL="../Default_odour_bottles.vi"/>
+		<Item Name="Dev1_timing_source.vi" Type="VI" URL="../Dev1_timing_source.vi"/>
 		<Item Name="Empty_bottle.vi" Type="VI" URL="../Empty_bottle.vi"/>
+		<Item Name="Generate_trial_sequence.vi" Type="VI" URL="../Generate_trial_sequence.vi"/>
 		<Item Name="Get_odour_data.vi" Type="VI" URL="../Get_odour_data.vi"/>
 		<Item Name="GLOBAL_experiment_parameters.vi" Type="VI" URL="../GLOBAL_experiment_parameters.vi"/>
 		<Item Name="GLOBAL_odour_component_data.vi" Type="VI" URL="../GLOBAL_odour_component_data.vi"/>
 		<Item Name="GLOBAL_odour_protocol.vi" Type="VI" URL="../GLOBAL_odour_protocol.vi"/>
 		<Item Name="GLOBAL_odour_sequences.vi" Type="VI" URL="../GLOBAL_odour_sequences.vi"/>
 		<Item Name="GLOBAL_odour_stimuli.vi" Type="VI" URL="../GLOBAL_odour_stimuli.vi"/>
+		<Item Name="GLOBAL_trial_sequence.vi" Type="VI" URL="../GLOBAL_trial_sequence.vi"/>
 		<Item Name="Handle_counter_bottle_drop.vi" Type="VI" URL="../Handle_counter_bottle_drop.vi"/>
 		<Item Name="Identify_bottle_types.vi" Type="VI" URL="../Identify_bottle_types.vi"/>
 		<Item Name="Init_odour_bottles.vi" Type="VI" URL="../Init_odour_bottles.vi"/>
@@ -62,6 +65,7 @@
 		<Item Name="Odour_drag.vi" Type="VI" URL="../Odour_drag.vi"/>
 		<Item Name="Odour_map_selection.vi" Type="VI" URL="../Odour_map_selection.vi"/>
 		<Item Name="Odour_map_selection_.vi" Type="VI" URL="../Odour_map_selection_.vi"/>
+		<Item Name="Randomize_trials.vi" Type="VI" URL="../Randomize_trials.vi"/>
 		<Item Name="Remove_stimulus.vi" Type="VI" URL="../Remove_stimulus.vi"/>
 		<Item Name="Rename_drag.vi" Type="VI" URL="../Rename_drag.vi"/>
 		<Item Name="Save_experiment.vi" Type="VI" URL="../Save_experiment.vi"/>
@@ -70,6 +74,7 @@
 		<Item Name="Save_stimuli.vi" Type="VI" URL="../Save_stimuli.vi"/>
 		<Item Name="Similarities_to_colour_grid.vi" Type="VI" URL="../Similarities_to_colour_grid.vi"/>
 		<Item Name="stimulus_srcoll_event.lvlib" Type="Library" URL="../stimulus_srcoll_event.lvlib"/>
+		<Item Name="Time_passed.vi" Type="VI" URL="../Time_passed.vi"/>
 		<Item Name="Update_bottle_selection.vi" Type="VI" URL="../Update_bottle_selection.vi"/>
 		<Item Name="Update_odour_components.vi" Type="VI" URL="../Update_odour_components.vi"/>
 		<Item Name="VP_String.vi" Type="VI" URL="../VP_String.vi"/>
@@ -163,10 +168,32 @@
 				<Item Name="DAQmx Create DI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create DI Channel (sub).vi"/>
 				<Item Name="DAQmx Create DO Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create DO Channel (sub).vi"/>
 				<Item Name="DAQmx Create Strain Rosette AI Channels (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Strain Rosette AI Channels (sub).vi"/>
+				<Item Name="DAQmx Create Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/task.llb/DAQmx Create Task.vi"/>
+				<Item Name="DAQmx Create Timing Source (Control Loop From Task).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Control Loop From Task).vi"/>
+				<Item Name="DAQmx Create Timing Source (Digital Change Detection).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Digital Change Detection).vi"/>
+				<Item Name="DAQmx Create Timing Source (Digital Change Detection_sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Digital Change Detection_sub).vi"/>
+				<Item Name="DAQmx Create Timing Source (Digital Edge using Counter).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Digital Edge using Counter).vi"/>
+				<Item Name="DAQmx Create Timing Source (Digital Edge using Counter_sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Digital Edge using Counter_sub).vi"/>
+				<Item Name="DAQmx Create Timing Source (Frequency).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Frequency).vi"/>
+				<Item Name="DAQmx Create Timing Source (Frequency_sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Frequency_sub).vi"/>
+				<Item Name="DAQmx Create Timing Source (Signal From Task).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (Signal From Task).vi"/>
+				<Item Name="DAQmx Create Timing Source (SignalFromTask_sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (SignalFromTask_sub).vi"/>
+				<Item Name="DAQmx Create Timing Source (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (sub).vi"/>
+				<Item Name="DAQmx Create Timing Source (sub2).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source (sub2).vi"/>
+				<Item Name="DAQmx Create Timing Source.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/timing.llb/DAQmx Create Timing Source.vi"/>
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Rollback Channel If Error.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Rollback Channel If Error.vi"/>
 				<Item Name="DAQmx Set CJC Parameters (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Set CJC Parameters (sub).vi"/>
+				<Item Name="DAQmx Timing (Burst Export Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Burst Export Clock).vi"/>
+				<Item Name="DAQmx Timing (Burst Import Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Burst Import Clock).vi"/>
+				<Item Name="DAQmx Timing (Change Detection).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Change Detection).vi"/>
+				<Item Name="DAQmx Timing (Handshaking).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Handshaking).vi"/>
+				<Item Name="DAQmx Timing (Implicit).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Implicit).vi"/>
+				<Item Name="DAQmx Timing (Pipelined Sample Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Pipelined Sample Clock).vi"/>
+				<Item Name="DAQmx Timing (Sample Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Sample Clock).vi"/>
+				<Item Name="DAQmx Timing (Use Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Use Waveform).vi"/>
+				<Item Name="DAQmx Timing.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing.vi"/>
 				<Item Name="DAQmx Wait Until Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Wait Until Done.vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
