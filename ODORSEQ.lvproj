@@ -38,6 +38,7 @@
 		<Item Name="Default_odour_bottles.vi" Type="VI" URL="../Default_odour_bottles.vi"/>
 		<Item Name="Dev1_timing_source.vi" Type="VI" URL="../Dev1_timing_source.vi"/>
 		<Item Name="Empty_bottle.vi" Type="VI" URL="../Empty_bottle.vi"/>
+		<Item Name="Find_first_inactive.vi" Type="VI" URL="../Find_first_inactive.vi"/>
 		<Item Name="Generate_trial_sequence.vi" Type="VI" URL="../Generate_trial_sequence.vi"/>
 		<Item Name="Get_odour_data.vi" Type="VI" URL="../Get_odour_data.vi"/>
 		<Item Name="GLOBAL_experiment_parameters.vi" Type="VI" URL="../GLOBAL_experiment_parameters.vi"/>
