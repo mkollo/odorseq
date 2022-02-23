@@ -53,6 +53,7 @@
 		<Item Name="Init_sequences.vi" Type="VI" URL="../Init_sequences.vi"/>
 		<Item Name="Initi_stimuli.vi" Type="VI" URL="../Initi_stimuli.vi"/>
 		<Item Name="Label_bottles.vi" Type="VI" URL="../Label_bottles.vi"/>
+		<Item Name="Launch_trial.vi" Type="VI" URL="../Launch_trial.vi"/>
 		<Item Name="Lick_sensor_calibration.vi" Type="VI" URL="../Lick_sensor_calibration.vi"/>
 		<Item Name="Load_experiment.vi" Type="VI" URL="../Load_experiment.vi"/>
 		<Item Name="Load_protocol.vi" Type="VI" URL="../Load_protocol.vi"/>
@@ -73,7 +74,9 @@
 		<Item Name="Save_protocol.vi" Type="VI" URL="../Save_protocol.vi"/>
 		<Item Name="Save_sequences.vi" Type="VI" URL="../Save_sequences.vi"/>
 		<Item Name="Save_stimuli.vi" Type="VI" URL="../Save_stimuli.vi"/>
+		<Item Name="Sequence_from_name.vi" Type="VI" URL="../Sequence_from_name.vi"/>
 		<Item Name="Similarities_to_colour_grid.vi" Type="VI" URL="../Similarities_to_colour_grid.vi"/>
+		<Item Name="Step_state_conditionally.vi" Type="VI" URL="../Step_state_conditionally.vi"/>
 		<Item Name="stimulus_srcoll_event.lvlib" Type="Library" URL="../stimulus_srcoll_event.lvlib"/>
 		<Item Name="Time_passed.vi" Type="VI" URL="../Time_passed.vi"/>
 		<Item Name="Update_bottle_selection.vi" Type="VI" URL="../Update_bottle_selection.vi"/>
