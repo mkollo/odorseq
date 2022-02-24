@@ -3,7 +3,7 @@
 <Version>16.0</Version>
 <Cluster>
 <Name>Experiment parameters</Name>
-<NumElts>5</NumElts>
+<NumElts>6</NumElts>
 <Cluster>
 <Name>Stimulus signal</Name>
 <NumElts>2</NumElts>
@@ -13,7 +13,7 @@
 </String>
 <DBL>
 <Name>Delay</Name>
-<Val>-100.00000000000000</Val>
+<Val>-500.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -75,6 +75,18 @@
 <Name>Condition</Name>
 <Val>Wrong response</Val>
 </String>
+</Cluster>
+<Cluster>
+<Name>Trigger</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Source</Name>
+<Val>None</Val>
+</String>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
 </Cluster>
 </Cluster>
 </LVData>

@@ -78,9 +78,12 @@
 		<Item Name="Similarities_to_colour_grid.vi" Type="VI" URL="../Similarities_to_colour_grid.vi"/>
 		<Item Name="Step_state_conditionally.vi" Type="VI" URL="../Step_state_conditionally.vi"/>
 		<Item Name="stimulus_srcoll_event.lvlib" Type="Library" URL="../stimulus_srcoll_event.lvlib"/>
+		<Item Name="Take_next_trial.vi" Type="VI" URL="../Take_next_trial.vi"/>
 		<Item Name="Time_passed.vi" Type="VI" URL="../Time_passed.vi"/>
+		<Item Name="Trial_status_text.vi" Type="VI" URL="../Trial_status_text.vi"/>
 		<Item Name="Update_bottle_selection.vi" Type="VI" URL="../Update_bottle_selection.vi"/>
 		<Item Name="Update_odour_components.vi" Type="VI" URL="../Update_odour_components.vi"/>
+		<Item Name="Update_trial_state.vi" Type="VI" URL="../Update_trial_state.vi"/>
 		<Item Name="VP_String.vi" Type="VI" URL="../VP_String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
