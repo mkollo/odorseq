@@ -1,0 +1,56 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Cluster>
+<Name>Protocol cluster</Name>
+<NumElts>6</NumElts>
+<Array>
+<Name>Sequence</Name>
+<Dimsize>2</Dimsize>
+<String>
+<Name>Sequence</Name>
+<Val>SIMPLE 1A+</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>SIMPLE 2A+</Val>
+</String>
+</Array>
+<Array>
+<Name>Rel. requency</Name>
+<Dimsize>2</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Frequency</Name>
+<Dimsize>2</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Sequence interval</Name>
+<Val>200.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Rarest sequence </Name>
+<Val>200.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Randomization</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</LVData>

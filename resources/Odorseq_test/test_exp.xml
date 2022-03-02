@@ -1,0 +1,80 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Cluster>
+<Name>Experiment parameters</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Stimulus signal</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Effector</Name>
+<Val>On-screen signal</Val>
+</String>
+<DBL>
+<Name>Delay</Name>
+<Val>-100.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Reward period signal</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Effector</Name>
+<Val>On-screen signal</Val>
+</String>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Reward</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Effector</Name>
+<Val>On-screen signal</Val>
+</String>
+<String>
+<Name>Condition</Name>
+<Val>In window</Val>
+</String>
+<DBL>
+<Name>Delay</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Response</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Source</Name>
+<Val>Keyboard</Val>
+</String>
+<DBL>
+<Name>Window start</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Threshold</Name>
+<Val>1</Val>
+</U32>
+<DBL>
+<Name>Window duration</Name>
+<Val>250.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Punishment</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Effector</Name>
+<Val>On-screen signal</Val>
+</String>
+<String>
+<Name>Condition</Name>
+<Val>Wrong response</Val>
+</String>
+</Cluster>
+</Cluster>
+</LVData>

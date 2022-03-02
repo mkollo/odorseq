@@ -1,0 +1,128 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Cluster>
+<Name>Protocol cluster</Name>
+<NumElts>6</NumElts>
+<Array>
+<Name>Sequence</Name>
+<Dimsize>8</Dimsize>
+<String>
+<Name>Sequence</Name>
+<Val>SIMPLE 1A+</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>SIMPLE 2A+</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>SIMPLE 1B-</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>SIMPLE 2B-</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>COMPLEX 1C+</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>COMPLEX 2C-</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>COMPLEX 1D-</Val>
+</String>
+<String>
+<Name>Sequence</Name>
+<Val>COMPLEX 2D+</Val>
+</String>
+</Array>
+<Array>
+<Name>Rel. requency</Name>
+<Dimsize>8</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Frequency</Name>
+<Dimsize>8</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.12500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.12500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.12500000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.12500000000000</Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Sequence interval</Name>
+<Val>2000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Rarest sequence </Name>
+<Val>90.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Randomization</Name>
+<Val>2</Val>
+</U16>
+</Cluster>
+</LVData>
