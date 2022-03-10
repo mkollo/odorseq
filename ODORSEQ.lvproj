@@ -101,8 +101,16 @@
 		<Item Name="Odour_valve_waveforms.vi" Type="VI" URL="../Odour_valve_waveforms.vi"/>
 		<Item Name="Odour_bottle_volatilities.vi" Type="VI" URL="../Odour_bottle_volatilities.vi"/>
 		<Item Name="Text_to_binary_signal_array.vi" Type="VI" URL="../Text_to_binary_signal_array.vi"/>
-		<Item Name="File_ExistsFile.vi" Type="VI" URL="../File_ExistsFile.vi"/>
-		<Item Name="Update_colunter)bottles.vi" Type="VI" URL="../Update_colunter)bottles.vi"/>
+		<Item Name="File_Exists.vi" Type="VI" URL="../File_Exists.vi"/>
+		<Item Name="Update_colunter_bottles.vi" Type="VI" URL="../Update_colunter_bottles.vi"/>
+		<Item Name="Bottle_assignments.vi" Type="VI" URL="../Bottle_assignments.vi"/>
+		<Item Name="Monitor_input_flow.vi" Type="VI" URL="../Monitor_input_flow.vi"/>
+		<Item Name="Calculate_samples.vi" Type="VI" URL="../Calculate_samples.vi"/>
+		<Item Name="Calculate_duty_cycle.vi" Type="VI" URL="../Calculate_duty_cycle.vi"/>
+		<Item Name="Calculate_ON_OFF_samples.vi" Type="VI" URL="../Calculate_ON_OFF_samples.vi"/>
+		<Item Name="Waveform_from_duty_cycle.vi" Type="VI" URL="../Waveform_from_duty_cycle.vi"/>
+		<Item Name="Line_name_string.vi" Type="VI" URL="../Line_name_string.vi"/>
+		<Item Name="Bool_array_to_digital_waveform.vi" Type="VI" URL="../Bool_array_to_digital_waveform.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
@@ -397,17 +405,20 @@
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
-				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
-				<Item Name="Digital Pattern Generator (Toggle).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Toggle).vi"/>
-				<Item Name="Digital Pattern Generator (Random).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Random).vi"/>
-				<Item Name="Digital Pattern Generator (Single Value).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Single Value).vi"/>
-				<Item Name="Digital Pattern Generator (Marching Values).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Marching Values).vi"/>
-				<Item Name="Digital Pattern Generator (Ramp).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Ramp).vi"/>
-				<Item Name="Digital Pattern Generator.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Pattern Generator.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
+				<Item Name="Append UnCompressed Data.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Append UnCompressed Data.vi"/>
+				<Item Name="Create Index.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Create Index.vi"/>
+				<Item Name="Adjust Data.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Adjust Data.vi"/>
+				<Item Name="Append Compressed Data.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Append Compressed Data.vi"/>
+				<Item Name="DTbl Append Digital Signals.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Append Digital Signals.vi"/>
+				<Item Name="Append Waveform Attributes.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Append Waveform Attributes.vi"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="DWDT Append Digital Signals.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Append Digital Signals.vi"/>
+				<Item Name="Append Digital Signals.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Append Digital Signals.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -415,6 +426,11 @@
 			</Item>
 			<Item Name="Save_odour_bottles.vi" Type="VI" URL="../Save_odour_bottles.vi"/>
 			<Item Name="VP_to_ppm.vi" Type="VI" URL="../VP_to_ppm.vi"/>
+			<Item Name="Ideal_counters.vi" Type="VI" URL="../Ideal_counters.vi"/>
+			<Item Name="Ms_to_samples.vi" Type="VI" URL="../Ms_to_samples.vi"/>
+			<Item Name="NI_Init.vi" Type="VI" URL="../NI_Init.vi"/>
+			<Item Name="NI_cluster.ctl" Type="VI" URL="../NI_cluster.ctl"/>
+			<Item Name="Bottle_type.vi" Type="VI" URL="../Bottle_type.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
